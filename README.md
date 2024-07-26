@@ -1,7 +1,9 @@
 # esp32-wifi-ssid-spam
 Creates multiple fake networks using ESP 32 DEVKIT V1.
 
-**CONFIG**\n
+**CONFIG**
+
+
 
 Change the Constant numIDs, depending on how many fake networks need to be created.
 ```
@@ -21,9 +23,13 @@ const char* ssids[numIDs] = {
 - Also numIDs should be same as no. of ssids in ssids list.
 
 
-**USAGE**\n
+**USAGE**
+
+
 Run, Flash the program on ESP 32 Boards.
 
-**LED Indication**\n
+**LED Indication**
+
+
 On the creation, transmission of each packet, the in-built LED is turned on and off, which makes it easier to debug.
 
